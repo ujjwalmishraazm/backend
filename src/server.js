@@ -1,7 +1,7 @@
   import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import connectDB from "./confiq/db";
+import connectDB from "./confiq/db.js";
 
 dotenv.config();
 
