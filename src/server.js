@@ -9,7 +9,7 @@ const app = express();
 import cors from 'cors';
 
 app.use(cors({
-  origin: 'https://frontend-278z.vercel.app/', // your frontend URL
+  origin: 'frontend-ten-ashy-17.vercel.app', // your frontend URL
   credentials: true,
 }));
 
