@@ -6,7 +6,13 @@ import connectDB from "./confiq/db.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+import cors from 'cors';
+
+app.use(cors({
+  origin: 'https://frontend-278z.vercel.app/', // your frontend URL
+  credentials: true,
+}));
+
 app.use(express.json());
 
  await connectDB()
