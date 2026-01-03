@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'frontend-ten-ashy-17.vercel.app', // your frontend URL
+  origin: 'https://frontend-iota-five-27.vercel.app/', // your frontend URL
   credentials: true,
 }));
 
